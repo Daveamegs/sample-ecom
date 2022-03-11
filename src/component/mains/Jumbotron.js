@@ -7,44 +7,44 @@ import liveGif from "../../images/SBBlive.gif";
 export default class Jumbotron extends Component {
   render() {
     return (
-      <div className="container d-flex">
-        <div className="bg-white p-4">
-          <ul className="list-none">
+      <div className="container d-flex size-height justify-content-between p-0 bg-success">
+        <div className="bg-danger">
+          <ul className="">
             <li>
-              <a>Supermarket</a>
+              <a href="./">Supermarket</a>
             </li>
             <li>
-              <a>Phones & Tablet</a>
+              <a href="./">Phones & Tablet</a>
             </li>
             <li>
-              <a>Health & Beauty</a>
+              <a href="./">Health & Beauty</a>
             </li>
             <li>
-              <a>Home & Office</a>
+              <a href="./">Home & Office</a>
             </li>
             <li>
-              <a>Electronics</a>
+              <a href="./">Electronics</a>
             </li>
             <li>
-              <a>Computing</a>
+              <a href="./">Computing</a>
             </li>
             <li>
-              <a>Fashion</a>
+              <a href="./">Fashion</a>
             </li>
             <li>
-              <a>Sporting Goods</a>
+              <a href="./">Sporting Goods</a>
             </li>
             <li>
-              <a>Baby Products</a>
+              <a href="./">Baby Products</a>
             </li>
             <li>
-              <a>Gaming</a>
+              <a href="./">Gaming</a>
             </li>
             <li>
-              <a>Automobile</a>
+              <a href="./">Automobile</a>
             </li>
             <li>
-              <a>Other Categories</a>
+              <a href="./">Other Categories</a>
             </li>
           </ul>
         </div>
@@ -77,13 +77,17 @@ export default class Jumbotron extends Component {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src={mfashion} class="d-block w-100" alt="..." />
+              <img src={mfashion} className="d-block w-100 h-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src={ghfashion} class="d-block w-100" alt="..." />
+              <img src={ghfashion} className="d-block w-100 h-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src={homeMakeOver} class="d-block w-100" alt="..." />
+              <img
+                src={homeMakeOver}
+                className="d-block w-100 h-100"
+                alt="..."
+              />
             </div>
           </div>
           <button
@@ -105,24 +109,24 @@ export default class Jumbotron extends Component {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div>
+        <div className="">
           <div>
             <ul className="bg-white">
               <li className="">
-                <a href="./" className="nav-link text-dark">
-                  <h5>HELP CENTRE</h5>
+                <a href="./" className="text-dark">
+                  HELP CENTRE <br />
                   How can we help you?
                 </a>
               </li>
               <li>
-                <a>
+                <a href="./">
                   EASY RETURNS <br />
                   Up to 15 Days
                 </a>
               </li>
               <li>
-                <a>
-                  <h5>SELL ON JUMIA</h5>
+                <a href="./">
+                  SELL ON JUMIA
                   <p>Make more money</p>
                 </a>
               </li>

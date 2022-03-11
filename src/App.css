@@ -1,5 +1,6 @@
 body {
   /* background-image: url(images/gsf712.jpg); */
+  background-color: rgb(192, 31, 125) !important;
 }
 
 .App {
@@ -9,6 +10,10 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.size-height {
+  height: 380px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

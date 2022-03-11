@@ -1,12 +1,13 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import logo from "../images/Jumia_logo_1.png";
 
 export default class Navbar extends Component {
   render() {
     return (
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div className="container d-flex">
-          <a className="navbar-brand flex-fill" href="./">
-            Navbar
+        <div className="container d-flex p-0">
+          <a className="navbar-brand w-25" href="./">
+            <img src={logo} alt="" className="w-50" />
           </a>
 
           {/* Toggle Button */}
@@ -25,7 +26,7 @@ export default class Navbar extends Component {
           {/* Search Button */}
           <form class="d-flex flex-fill">
             <input
-              class="form-control me-2"
+              className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -48,17 +49,12 @@ export default class Navbar extends Component {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./">
-                  Items
+                  Help
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./">
-                  Items
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">
-                  Items
+                  Cart
                 </a>
               </li>
             </ul>
