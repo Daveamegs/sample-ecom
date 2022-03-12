@@ -6,6 +6,7 @@ import Jumbotron from "./component/mains/Jumbotron";
 import NavCards from "./component/mains/NavCards";
 import FlashSales from "./component/mains/FlashSales";
 import NeverMiss from "./component/mains/NeverMiss";
+import TopDeals from "./component/mains/TopDeals";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <NavCards />
       <FlashSales />
       <NeverMiss />
+      <TopDeals />
     </Fragment>
   );
 }

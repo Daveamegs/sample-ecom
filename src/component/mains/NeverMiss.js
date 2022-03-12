@@ -25,11 +25,11 @@ export default class NeverMiss extends Component {
 
         <div className="container bg-light d-flex p-2 mt-3">
           <div className="me-1">
-            <img src={shirt} className="w-100" alt="Item on Sale" />
+            <img src={xiaomi} className="w-100" alt="Item on Sale" />
           </div>
 
           <div className="ms-1">
-            <img src={sneakers} className="w-100" alt="Item on Sale" />
+            <img src={tv} className="w-100" alt="Item on Sale" />
           </div>
         </div>
       </Fragment>
